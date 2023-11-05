@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.bg-dark{
+    background-color: #70c783;
+}
+.navbar{   
+    padding: 1rem;
+    height: 80px;
+}
+
+
+.navbar .logo{
+    float: left;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size:xx-large
+
+}
+
+.navbar .nav-items{
+    float: right;
+    margin-top: 1rem;
+
+}
+
+.navbar .nav-item{
+    display: inline;
+    padding: 1rem;
+}
+
+.navbar a{
+    padding-bottom: 0.3rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-radius: 22px;
+    padding: 8px;
+}
+
+.navbar  a:hover{
+    color: yellow;
+
+}
+
+/* ############################SECTION################### */
+
+.container{
+    text-align: center;
+    background-color: beige;
+    margin-top: 40px;
+    width: 60%;
+    max-width: 2000px;
+    margin: 55px auto;
+    
+}
+.container .bookListSection h2{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 25px;
+}
+
+#allBookList{
+    list-style: none;
+}
+.bookListSection h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container .bookadd input{
+    margin-top: 12px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 4px;
+
+}
+
+.bookadd h2{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 25px ;
+}
+
+.container .bookadd button{
+    background-color: blue;
+    color: white;
+    letter-spacing: 2px;
+    padding: 8px;
+    margin: 4px;
+    font-weight: bold;
+    border: transparent;
+    cursor: pointer;
+}
+
+.container .booksearch input{
+    margin-top: 12px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 4px;
+
+}
+
+.container .booksearch h2{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 25px ;
+}
+#searchBook{
+    list-style: none;
+}
+#allBookList2{
+    list-style: none;
+}
+.container .booksearch button{
+    background-color: blue;
+    color: white;
+    letter-spacing: 2px;
+    padding: 8px;
+    margin: 4px;
+    font-weight: bold;
+    border: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book|Store</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <div class="navdiv">
+            <h1 class="logo">Online Library Management System</h1>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#HOME">HOME</a></li>
+                <li class="nav-item"><a href="#ADD BOOK">Add Book</a></li>
+                <li class="nav-item"><a href="#SEARCH BOOK">Search Book</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <div id="bookListSection">
+            <h2 id="HOME">OLMS</h2>
+            <h3>BOOK LIST</h3>
+            <ul id="allBookList"></ul>
+            <ul id="allBookList2">
+                        <li>Title: "HTML", Author: "xyz", Edition:"4th"</li>              
+                        <li>Title: "Hacking", Author: "abc", Edition:"5th"</li>              
+                        <li>Title: "Javascript", Author: "abc", Edition:"6th"</li>              
+                        <li>Title: "CSS", Author: "abc", Edition:"2nd"</li>    
+                        <li>Title: "C++&C", Author: "xyz", Edition:"3rd"</li>          
+            </ul>
+        </div>
+
+        <div class="bookadd">
+            <h2>Add New Book</h2>
+            <input type="text" id="BookTitle" placeholder="Book Title"><br><br>
+            <input type="text" id="BookAuthor" placeholder="Author"><br><br>
+            <input type="text" id="BookEdition" placeholder="Edition"><br><br>
+            <button onclick="addNewBook()">Add Book</button>
+        </div>
+
+
+        <div class="booksearch">
+            <h2>Search for Books</h2>
+            <input type="text" id="searchInput" placeholder="Search Book"><br><br>
+            <button onclick="searchBooks()">Search</button>
+            <ul id="searchBook"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
